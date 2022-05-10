@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--DEFAULT-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--BOOTSTRAP MAIN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!--BOOTSTRAP FONT ICON-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--EXTERNAL CSS-->
+    <link rel="stylesheet" href="index.css">
+
+    <!--BOOTSTRAP LINK FOR FONTS-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+    <!--PAGE TITLE-->
+    <title>SHIPPING</title>
+
+    <style>
+    </style>
+<body>
+    <!--NAV BAR-->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid navbar-header-container">
+            <a class="navbar-brand " href="index.html">SHIPPING</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                    <span class="navbar-toggler-icon" style="color: #000000;"></span>
+                </button>
+            <div class="navbar-collapse collapse headerClass" id="navbarSupportedContent">
+            <ul class="navbar-nav navbar-center" style="border: 3px solid rgb(47, 0, 255)">
+                <li class="nav-item" style="border: 3px solid red">
+                    <a class="nav-link text-dark" aria-current="page" href="#Services" style="border: 3px solid rgb(51, 253, 0)">OUR SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#Guides">GUIDES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#Company">COMPANY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#ContactUs">CONTACT US</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-5 mb-3 navbar-right">
+                <li class="nav-itemOne ">
+                    <a class="nav-link" href="https://www.facebook.com/" target="_blank" style="color: black;">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 26 26" style=" fill:#000000;">    
+                        <path d="M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2 C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z"></path>
+                      </svg>
+                    </a>
+                </li>
+                <li class="nav-itemOne">
+                    <a class="nav-link " href="https://www.instagram.com/" target="_blank" style="color: black;">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style=" fill:#000000;">    
+                        <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"></path>
+                      </svg>
+                    </a>
+                </li>
+                <li class="nav-itemOne">
+                    <a class="nav-link " href="https://www.linkedin.com/" target="_blank" style="color: black;">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"viewBox="0 0 32 32"style=" fill:#000000;">
+                        <path d="M 7.5 5 C 6.132813 5 5 6.132813 5 7.5 L 5 24.5 C 5 25.867188 6.132813 27 7.5 27 L 24.5 27 C 25.867188 27 27 25.867188 27 24.5 L 27 7.5 C 27 6.132813 25.867188 5 24.5 5 Z M 7.5 7 L 24.5 7 C 24.785156 7 25 7.214844 25 7.5 L 25 24.5 C 25 24.785156 24.785156 25 24.5 25 L 7.5 25 C 7.214844 25 7 24.785156 7 24.5 L 7 7.5 C 7 7.214844 7.214844 7 7.5 7 Z M 10.4375 8.71875 C 9.488281 8.71875 8.71875 9.488281 8.71875 10.4375 C 8.71875 11.386719 9.488281 12.15625 10.4375 12.15625 C 11.386719 12.15625 12.15625 11.386719 12.15625 10.4375 C 12.15625 9.488281 11.386719 8.71875 10.4375 8.71875 Z M 19.46875 13.28125 C 18.035156 13.28125 17.082031 14.066406 16.6875 14.8125 L 16.625 14.8125 L 16.625 13.5 L 13.8125 13.5 L 13.8125 23 L 16.75 23 L 16.75 18.3125 C 16.75 17.074219 16.996094 15.875 18.53125 15.875 C 20.042969 15.875 20.0625 17.273438 20.0625 18.375 L 20.0625 23 L 23 23 L 23 17.78125 C 23 15.226563 22.457031 13.28125 19.46875 13.28125 Z M 9 13.5 L 9 23 L 11.96875 23 L 11.96875 13.5 Z"></path>
+                      </svg>
+                    </a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav> -->
+
+
+    <!--New Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid d-flex justify-content-around">
+          <a class="navbar-brand" href="#">SHIPPING</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ulA d-flex justify-content-around">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#Services">OUR SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#Guides">GUIDES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#Company">COMPANY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-dark" href="#ContactUs">CONTACT US</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ulB d-flex justify-content-around">
+                <li class="nav-item ">
+                    <a class="nav-link" href="https://www.facebook.com/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 26 26" style=" fill:#000000;">    
+                            <path d="M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2 C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z"></path>
+                        </svg>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.instagram.com/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style=" fill:#000000;">    
+                            <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"></path>
+                        </svg>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"viewBox="0 0 32 32"style=" fill:#000000;">
+                            <path d="M 7.5 5 C 6.132813 5 5 6.132813 5 7.5 L 5 24.5 C 5 25.867188 6.132813 27 7.5 27 L 24.5 27 C 25.867188 27 27 25.867188 27 24.5 L 27 7.5 C 27 6.132813 25.867188 5 24.5 5 Z M 7.5 7 L 24.5 7 C 24.785156 7 25 7.214844 25 7.5 L 25 24.5 C 25 24.785156 24.785156 25 24.5 25 L 7.5 25 C 7.214844 25 7 24.785156 7 24.5 L 7 7.5 C 7 7.214844 7.214844 7 7.5 7 Z M 10.4375 8.71875 C 9.488281 8.71875 8.71875 9.488281 8.71875 10.4375 C 8.71875 11.386719 9.488281 12.15625 10.4375 12.15625 C 11.386719 12.15625 12.15625 11.386719 12.15625 10.4375 C 12.15625 9.488281 11.386719 8.71875 10.4375 8.71875 Z M 19.46875 13.28125 C 18.035156 13.28125 17.082031 14.066406 16.6875 14.8125 L 16.625 14.8125 L 16.625 13.5 L 13.8125 13.5 L 13.8125 23 L 16.75 23 L 16.75 18.3125 C 16.75 17.074219 16.996094 15.875 18.53125 15.875 C 20.042969 15.875 20.0625 17.273438 20.0625 18.375 L 20.0625 23 L 23 23 L 23 17.78125 C 23 15.226563 22.457031 13.28125 19.46875 13.28125 Z M 9 13.5 L 9 23 L 11.96875 23 L 11.96875 13.5 Z"></path>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!--HERO-->
+        <div class="container-fluid ">
+            <div class="row">
+                <img class="img-fluid" src="Bg.png" alt="Background Image">
+            </div>
+        </div>
+
+    <!--Who We Area-->
+    <div class="container" id="Guides">
+        <br><br>
+        <div class="hr-line"></div>
+        <br>
+        <div class="row ">
+                <h2 class="textMain mb-4">
+                    Trusted repurposing shipping service<br>throughout South East Asia.
+                </h2>
+                <p class="textOne mb-4">
+                    With the ability of our management team that is responsible and focused on customer<br>satisfaction and supported by trusted agents, Aegis Shipping is able to repurposed ship<br>from Indonesa and Philippines at competitive prices and deliver on time.
+                </p>
+                <div class="mx-auto d-flex justify-content-center">
+                    <a href="#"><button class="btn btn-primary" type="button" style="background-color: #197FF7;">Learn More</button></a>
+                </div>
+        </div>
+    </div>
+    <br><br>
+
+    <!--SERVICES-->
+        <div class="container-fluid" id="Company">
+            <div class="row  ">
+                <div class="col-lg-6 col-sm-12 col-md-6 boxType">
+                    <h2 class="">We’ve since made it our mission to<br>revolutionize the repurposing<br>shipping industry.</h2>
+                    <p class="">Providing comfort and trust for the interests of companies, individuals, <br>shops, SMEs etc. in running their business, without risk, and safely.</p>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-md-6 px-0">
+                    <img  class="img-fluid imageTree" src="Treehouse.png" alt="Tree House" width="900" height="700">
+                </div>
+            </div>
+
+            <br><br>
+                <div class="container" >
+                    <div class="hr-line"></div>
+                </div>
+            <br><br>
+        </div>
+
+    <!--SERVICE LISTING-->
+    
+    <div class="container justify-content-center align-center" id="Services">
+        <div class="row" >
+            <h2 class="middleOurServices">OUR SERVICES</h2>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 col-md-12 d-flex flex-row justify-content-between">
+                <svg class="iconStyleTwo" xmlns="http://www.w3.org/2000/svg"  width="20%" height="20%" viewBox="0 0 24 24" >
+                    <path d="M16.53 9.78a.75.75 0 00-1.06-1.06L11 13.19l-1.97-1.97a.75.75 0 00-1.06 1.06l2.5 2.5a.75.75 0 001.06 0l5-5z"></path>
+                    <path fill-rule="evenodd" d="M12.54.637a1.75 1.75 0 00-1.08 0L3.21 3.312A1.75 1.75 0 002 4.976V10c0 6.19 3.77 10.705 9.401 12.83.386.145.812.145 1.198 0C18.229 20.704 22 16.19 22 10V4.976c0-.759-.49-1.43-1.21-1.664L12.54.637zm-.617 1.426a.25.25 0 01.154 0l8.25 2.676a.25.25 0 01.173.237V10c0 5.461-3.28 9.483-8.43 11.426a.2.2 0 01-.14 0C6.78 19.483 3.5 15.46 3.5 10V4.976c0-.108.069-.203.173-.237l8.25-2.676z"></path>
+                </svg>
+                <div>
+                    <h3 class="serviceHead">Safety and Reliable</h3>
+                    <p class="serviceText">We are responsible for the safety so you don't need to be worry about the quality.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-md-12 d-flex flex-row justify-content-between">
+                <svg class="iconStyle" xmlns="http://www.w3.org/2000/svg" width="20%" height="20%" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+                    <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"/>
+                </svg>    
+            <div>
+                <h3 class="serviceHeadTwo">Competitive Rate</h3>
+                <p class="serviceTextTwo">We are first-hand repurposing shipping comany and can provide customers with competitive rates. We also provide special rates for large quantity of ships.</p>
+            </div>
+            </div>
+        </div>
+
+        <!--SECOND ROW FOR THE SERVICE-->
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 col-md-12 d-flex flex-row justify-content-between">
+                <svg class="iconStyleThree" xmlns="http://www.w3.org/2000/svg" width="20%" height="20%" fill="currentColor" class="bi bi-check2-all" viewBox="0 0 16 16">
+                    <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"/>
+                    <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z"/>
+                </svg>
+                <div>
+                    <h3 class="serviceHeadThree">All In</h3> <br>
+                    <p class="serviceTextThree">The services we offer include VAT, PPH, Customs, Customs and Undername so that the customer receives everything from the Philippines up to the customer's destination in Indonesia.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-md-12 d-flex flex-row justify-content-between">
+                <svg class="iconStyleFour" xmlns="http://www.w3.org/2000/svg" width="20%" height="20%" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                </svg>
+            <div class="">
+                <h3 class="serviceHeadFour">Customer First</h3><br>
+                <p class="serviceTextFour">Providing customer satisfaction and the best service and building long-term cooperative relationships,</p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="col mx-auto d-flex justify-content-center">
+        <a href="#"><button class="btn btn-primary" type="button" style="background-color: #197FF7;">Learn More</button></a>
+    </div>
+
+    <br><br>
+    
+    <!--NEAR FOOTER-->
+    <div class="container-fluid mx-0 px-0">
+        <div class="row">
+            <img class="mx-0 px-0" src="Footerimage.png" alt="Footer Image">
+        </div>
+    </div>
+
+    <!-- Footer Start -->
+    <footer class="footerCss" id="ContactUs">
+        <div class="footer">
+            <div class="row ">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h2 class="headerText">Learn on how we can repurpose a ship that fits your business.</h2>
+                </div>
+                <div class="col">
+
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <h2 class="headerTextTwo">Address</h2>
+                    <p class="footerText">Pellentesque fermentum iaculis est, ac molestie elit luctus a.</p>
+                </div>
+                <div class="col">
+
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <h2 class="headerTextThree">Contact Numbers</h2>
+                    <p class="footerTextOne">
+                        <a href="#" style="color:#9CAAB4">+6221 123 4567</a> <br>
+                        <a href="#" style="color:#9CAAB4">+6221 123 4567</a> <br>
+                        <a href="#" style="color:#9CAAB4">+6221 123 4567</a> <br>
+                    <p>
+                </div>
+            </div>
+
+            <div class="row ">
+                <div class="col-lg-1 col-md-12 col-sm-12">
+                    <a href="#"><button class="btn btn-primary" type="button" style="background-color: #197FF7;">Let's Get Started</button></a>
+                </div>
+            </div>
+
+            <div class="row ">
+                <div class="col-lg-4 col-sm-12">
+                    <h2 class="headerText"></h2>
+                </div>
+                <div class="col-lg-1">
+
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h3 class="headerText">Email Address</h3>
+                    <p class="footerTextTwo">info@shipping.com</p>
+                </div>
+                <div class="col-lg-1">
+
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h3 class="headerTextTwo">Stay Connected</h3>
+                    <div class="footerTextThree">
+                        <a class="" target="_blank" href="https://www.facebook.com/">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 26 26" style=" fill:#9CAAB4;">    
+                                <path d="M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2 C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z"></path>
+                            </svg>
+                        </a>
+                        <a class="" target="_blank" href="https://www.instagram.com/">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style=" fill:#9CAAB4;">    
+                                <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"></path>
+                            </svg>
+                        </a> 
+                        <a class="" target="_blank" href="https://www.linkedin.com/">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"viewBox="0 0 32 32"style=" fill:#9CAAB4;">
+                                <path d="M 7.5 5 C 6.132813 5 5 6.132813 5 7.5 L 5 24.5 C 5 25.867188 6.132813 27 7.5 27 L 24.5 27 C 25.867188 27 27 25.867188 27 24.5 L 27 7.5 C 27 6.132813 25.867188 5 24.5 5 Z M 7.5 7 L 24.5 7 C 24.785156 7 25 7.214844 25 7.5 L 25 24.5 C 25 24.785156 24.785156 25 24.5 25 L 7.5 25 C 7.214844 25 7 24.785156 7 24.5 L 7 7.5 C 7 7.214844 7.214844 7 7.5 7 Z M 10.4375 8.71875 C 9.488281 8.71875 8.71875 9.488281 8.71875 10.4375 C 8.71875 11.386719 9.488281 12.15625 10.4375 12.15625 C 11.386719 12.15625 12.15625 11.386719 12.15625 10.4375 C 12.15625 9.488281 11.386719 8.71875 10.4375 8.71875 Z M 19.46875 13.28125 C 18.035156 13.28125 17.082031 14.066406 16.6875 14.8125 L 16.625 14.8125 L 16.625 13.5 L 13.8125 13.5 L 13.8125 23 L 16.75 23 L 16.75 18.3125 C 16.75 17.074219 16.996094 15.875 18.53125 15.875 C 20.042969 15.875 20.0625 17.273438 20.0625 18.375 L 20.0625 23 L 23 23 L 23 17.78125 C 23 15.226563 22.457031 13.28125 19.46875 13.28125 Z M 9 13.5 L 9 23 L 11.96875 23 L 11.96875 13.5 Z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <br><br>
+
+            <div class="row ">
+                <div class="col-lg-1 col-md-2 col-sm-3 footerOne">
+                    <h4 class="headerText  d-inline ">Our Services</h4>
+                </div>
+                <div class="col-lg-1 col-md-2 col-sm-3 footerOne">
+                    <h4 class="headerText  d-inline ">Guides</h4>
+                </div>
+                <div class="col-lg-1 col-md-2 col-sm-3 footerOne">
+                    <h4 class="headerText  d-inline ">Company</h4>
+                </div>
+                <div class="col-lg-1 col-md-2 col-sm-3 footerOne">
+                    <h4 class="headerText  d-inline ">Contact Us</h4>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12">
+
+                </div>
+                <!--Next Column of Footer-->
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                    
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                    <h4 class="headerTextTwo d-inline">© 2022 Shipping. All Rights Reserved.</h4>
+                </div>
+            </div>   
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>

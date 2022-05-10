@@ -1,0 +1,691 @@
+/* 
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 55%;
+    transform: translatex(-60%);
+}
+
+.nav-link{
+    margin-top: 50px;
+	font-family: 'Roboto';
+	font-weight: bold;
+}
+
+a.nav-link:hover{
+    background-color: #76c3de;
+    transition: 1s;
+}
+
+a.nav-link:active{
+    background-color: #74aaad;
+    color: red;
+    transition: 1s;
+}
+
+.nav-item{
+    width: 130px;
+    height: 19px;
+    border: 4px solid green;
+    text-align: center;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    
+    text-transform: uppercase;
+} */
+
+/* NEW CSS */
+.navbar-brand{
+    font-family: 'Roboto Condensed';
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 32px;
+    padding-left: 3%;
+}
+
+.nav-link{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+}
+
+a.nav-link:hover{
+    background-color: #76c3de;
+    transition: 1s;
+}
+
+a.nav-link:active{
+    background-color: #74aaad;
+    transition: 1s;
+}
+
+.ulA{
+    text-align: center;
+    margin-left: 20%;
+    width: 40%;
+}
+
+.ulB{
+    text-align: center;
+    margin-left: 25%;
+    width: 15%;
+}
+
+/*CSS FOR ICON FACEBOOK, IG, LINKIN*/
+
+/* CHECK SHIELD ICON */
+svg.iconStyleTwo{
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 3%;
+    padding-left: 2%;
+}
+/* DOUBLE CHECK ICON */
+svg.iconStyleThree{
+    margin-top: 3%;
+    margin-left: 6%;
+    margin-right: 8%;
+    padding-left: 5%;
+
+}
+
+/* DOLLAR ICON */
+svg.iconStyle{
+    margin-top: 4%;
+    margin-left: 8%;
+ 
+}
+/* PERSON ICON */
+svg.iconStyleFour{
+    margin-top: 3%;
+    margin-left: 3%;
+    padding-left: 4%;
+}
+
+/*HR CSS*/
+.hr-line{
+    width:80px;
+    height: 2px;
+    margin:auto;
+    border: 3px solid #233847;
+    background:#233847;
+}
+
+/*DIV SERVICES CSS*/
+div.boxType{
+    background-color: #233847;
+    font-family: Roboto;
+    color: #FFFFFF;
+    padding: 10%;
+
+}
+
+div.boxTypeTwo{
+    background-image: url(Treehouse.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+
+/*TEXT */
+h2.textDesign{
+    margin-top: 180px;
+    margin-left: 100px;
+
+    font-family: Roboto;
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    /* or 125% */
+    color: #FFFFFF;
+
+}
+
+h2.middleOurServices{
+    margin: auto;
+    
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+    
+    text-align: center;
+    
+    color: #233847;
+}
+
+h2.textMain{
+    left: 320px;
+    top: 733px;
+    margin: auto;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    /* or 125% */
+    
+    text-align: center;
+    
+    color: #233847;
+}
+
+p.textOne{
+    left: 320px;
+    top: 833px;
+    margin: auto;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    text-align: center;
+    
+    color: #555E65;
+}
+
+p.textDesignTwo{
+    margin-left: 100px;
+
+    font-family: Roboto;
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    color: #FFFFFF;
+}
+
+/*SERVICE CSS*/
+h3.serviceHead{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    /* identical to box height, or 133% */
+    color: #233847;
+}
+
+h3.serviceHeadTwo{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    /* identical to box height, or 133% */
+    
+    
+    color: #233847;
+}
+
+h3.serviceHeadThree{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    /* identical to box height, or 133% */
+
+    color: #233847;
+}
+
+h3.serviceHeadFour{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    /* identical to box height, or 133% */
+    
+    color: #233847;
+}
+
+
+p.serviceText{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    color: #555E65;
+}
+
+p.serviceTextTwo{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    color: #555E65;
+}
+
+p.serviceTextThree{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    color: #555E65;
+    
+}
+
+p.serviceTextFour{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    color: #555E65;
+}
+
+/*FOOTER CSS*/
+
+div.footer{
+    padding: 5px;
+    margin-left: 20px;
+}
+
+div.footerOne{ 
+    padding: 5px;
+}
+
+div.footerTextThree{
+    display: inline-block;
+    
+}
+
+footer.footerCss{
+    background-color: #233847;
+    padding: 20px;
+}
+
+h2.headerText{
+    /*Learn on how we can repurpose a ship that fits your business.*/
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    /* or 125% */
+    
+    color: #FFFFFF;
+}
+
+h2.headerTextTwo{
+    /*ADDRESS*/
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+h2.headerTextThree{
+    /* Contact Numbers */
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+h3.headerText{
+    /* Email Address */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+h3.headerTextTwo{
+    /* Stay Connected */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+h4.headerText{
+    /*Our Services, Guides, Company, Contact Us*/
+    padding: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    color: #9CAAB4;
+}
+
+
+h4.headerTextTwo{
+    /* © 2022 Shipping. All Rights Reserved. */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    color: #9CAAB4;
+}
+
+p.footerTextOne{
+    /* +6221 123 4567 +6221 123 4567 +6221 123 4567 */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    color: #9CAAB4;
+}
+
+p.footerText{
+    /* Pellentesque fermentum iaculis est, ac molestie elit luctus a. */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    color: #9CAAB4;
+}
+
+p.footerTextTwo{
+    /* info@shipping.com */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #9CAAB4;
+}
+
+.container-fluid{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    overflow: hidden;
+}
+
+
+
+/*MOBILE RESPONSIVENESS*/
+@media screen and (max-width: 768px){
+    /* SAFETY TEXT */
+    svg.iconStyleTwo{
+        margin-right: 5%;
+        padding-left: 5%;
+    }
+
+    h3.serviceHead{
+        font-size: 30px;
+    }
+    /*SAFETY SENTENCE */
+    p.serviceText{
+        font-size: 15px;
+    }
+    /* Competitive RATE */
+    svg.iconStyle{
+        width: 30%;
+        margin-right: 7%;
+    }
+
+    h3.serviceHeadTwo{
+        font-size: 30px;
+    }
+    /* Competitive rate sentence */
+    p.serviceTextTwo{
+        font-size: 15px;
+    }
+
+    /* All In */
+
+    svg.iconStyleThree{
+        width: 40%;
+        margin-left: 4%;
+        margin-right: 5%;
+    }
+
+    h3.serviceHeadThree{
+        font-size: 30px;
+    }
+    /* All in Sentence */
+    p.serviceTextThree{
+        font-size: 15px;
+    }
+    /* Customer First */
+
+    svg.iconStyleFour{
+        width: 25%;
+        margin-top: 5%;
+        margin-right: 4%;
+        margin-left: 8%;
+    }
+
+    h3.serviceHeadFour{
+        font-size: 30px;
+    }
+    /* Customer Sentence */
+    p.serviceTextFour{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    /* SAFETY TEXT */
+    svg.iconStyleTwo{
+        margin-right: 8%;
+        margin-left: 3%;
+        padding-left: 5%;
+    }
+
+    h3.serviceHead{
+        font-size: 30px;
+    }
+
+    /*SAFETY SENTENCE */
+    p.serviceText{
+        font-size: 15px;
+    }
+
+    /* Competitive RATE */
+    svg.iconStyle{
+        width: 30%;
+        margin-right: 7%;
+    }
+
+    h3.serviceHeadTwo{
+        font-size: 30px;
+    }
+
+    /* Competitive rate sentence */
+    p.serviceTextTwo{
+        font-size: 15px;
+    }
+
+    /* All In */
+    svg.iconStyleThree{
+        width: 40%;
+        margin-left: 4%;
+        margin-right: 7%;
+    }
+
+    h3.serviceHeadThree{
+        font-size: 30px;
+    }
+
+    /* All in Sentence */
+    p.serviceTextThree{
+        font-size: 15px;
+    }
+
+    /* Customer First */
+
+    svg.iconStyleFour{
+        width: 25%;
+        margin-top: 5%;
+        margin-right: 7%;
+        margin-left: 3%;
+    }
+
+    h3.serviceHeadFour{
+        font-size: 30px;
+    }
+
+    /* Customer Sentence */
+    p.serviceTextFour{
+        font-size: 15px;
+    }
+
+    /* IMAGE TREE CSS */
+    img.imageTree{
+        width: 100%;
+    }
+
+    /* Our services */
+    h4.headerText{
+       font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    /* SAFETY TEXT */
+    svg.iconStyleTwo{
+        width: 25%;
+        margin-top: 5%;
+        margin-right: 15%;
+        margin-left: 3%;
+    }
+
+    h3.serviceHead{
+        font-size: 30px;
+    }
+
+    /*SAFETY SENTENCE */
+    p.serviceText{
+        font-size: 15px;
+    }
+
+    /* Competitive RATE */
+    svg.iconStyle{
+        width: 30%;
+        margin-right: 19%;
+    }
+
+    h3.serviceHeadTwo{
+        font-size: 30px;
+    }
+
+    /* Competitive rate sentence */
+    p.serviceTextTwo{
+        font-size: 15px;
+    }
+
+    /* All In */
+    svg.iconStyleThree{
+        width: 40%;
+        margin-left: 4%;
+        margin-right: 18%;
+    }
+
+    h3.serviceHeadThree{
+        font-size: 30px;
+    }
+
+    /* All in Sentence */
+    p.serviceTextThree{
+        font-size: 15px;
+    }
+
+    /* Customer First */
+
+    svg.iconStyleFour{
+        width: 25%;
+        margin-top: 5%;
+        margin-right: 19%;
+        margin-left: 3%;
+    }
+
+    h3.serviceHeadFour{
+        font-size: 30px;
+    }
+
+    /* Customer Sentence */
+    p.serviceTextFour{
+        font-size: 15px;
+    }
+
+    /* IMAGE TREE CSS */
+    img.imageTree{
+        width: 100%;
+        height: 100%;
+    }
+
+    h2.headerText{
+        font-size: 30px;
+    }
+
+    h2.headerTextTwo{
+        font-size: 15px;
+    }
+
+    h2.headerTextThree{
+        font-size: 15px;
+    }
+
+}
